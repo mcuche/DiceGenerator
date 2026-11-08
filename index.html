@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/jquery.mobile-1.4.2.min.js"></script>
+        <script src="phonegap.js"></script>  
+        <script src="js/mobile.js"></script>
+    </head>
+	<body>
+		<div data-role="page" style="background-image:url(img/Dungeon.jpg);background-size:cover;">
+            <div data-role="header">
+            	<h1>Dice Generator</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <br />
+                <fieldset class="ui-grid-b">
+                    <div class="ui-block-a grid-element"><img id="aanvaller1" class="afbeelding" src="img/Blauw.png"></div>
+                    <div class="ui-block-b grid-element"><img id="aanvaller2" class="afbeelding" src="img/Wit.png"></div>
+                    <div class="ui-block-c grid-element"><img id="aanvaller3" class="afbeelding" src="img/Wit.png"></div>
+                    
+                    <div class="ui-block-a grid-element"><div><input id="btnAanvaller" class="afbeelding" data-enhanced="true" value="Attacker" type="button"></div></div>
+                    <div class="ui-block-b grid-element"><img class="afbeelding" src="img/Zwaarden.png"></div>
+                    <div class="ui-block-c grid-element"><input id="btnVerdediger" class="afbeelding" data-enhanced="true" value="Defender" type="button"></div>
+                    <div class="ui-block-a grid-element"><img id="verdediger1" class="afbeelding" src="img/Grijs.png"></div>
+                    <div class="ui-block-b grid-element"><img id="verdediger2" class="afbeelding" src="img/Wit.png"></div>
+                    <div class="ui-block-c grid-element"><img id="verdediger3" class="afbeelding" src="img/Wit.png"></div>
+                </fieldset>
+                <fieldset class="ui-grid-a">
+                	<div class="ui-block-a grid-element"><input id="btnReset" class="knop-groot" data-enhanced="true" value="Reset" type="button"></div>
+                    <div class="ui-block-b grid-element"><input id="btnAllDice" class="knop-groot" data-enhanced="true" value="Throw Dice" type="button"></div>
+                </fieldset>
+            </div>
+		</div>
+    </body>
+</html>

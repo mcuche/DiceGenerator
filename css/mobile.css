@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Deutsch;
+    src: url('../fonts/Deutsch.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+body  * {
+	font-family: Deutsch !important;
+	font-weight: normal !important;
+}
+
+.ui-page .ui-header {
+    background: #000000 !important;
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.grid-element {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.afbeelding {
+	height: 84px;
+	width: 84px;
+}
+
+.knop-groot {
+	height: 84px;
+	width: 90%;
+}
+
+.wit {
+	background-color: #FFFFFF;
+}
+
+.blauw {
+	background-color: #22409A;
+}
+
+.rood {
+	background-color: #ED1B24;
+}
+
+.geel {
+	background-color: #FEF200;
+}
+
+.grijs {
+	background-color: #C5C6C8;
+}
+
+.bruin {
+	background-color: #904B2E;
+}
+
+.zwart {
+	background-color: #000000;
+}

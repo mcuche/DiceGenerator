@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.example.DiceGenerator"
+		version = "1.0.0">
+	<name>Dice Generator</name>
+	<description>
+		A sample Apache Cordova application that responds to the deviceready event.
+	</description>
+	<author href="http://phonegap.com">
+		Jaak Trekhaak
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	
+	<preference name="Fullscreen" value="true" />
+	<preference name="WebViewBounce" value="true" />
+	<preference name="Orientation" value="portrait" />
+	<preference name="target-device" value="universal" />
+	<preference name="stay-in-webview" value="false" />
+	
+	<icon src="img/Blauw6.png" />
+	<gap:splash src="img/Dungeon.jpg" />
+	
+	<gap:platform name="android" />
+</widget>
+
