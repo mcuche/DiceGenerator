@@ -134,7 +134,7 @@ function refreshVerdediger() {
 
 function rolAanvallerStenen () {
 	for (var i = 0; i < 3; i++) {
-		var random = Math.floor((Math.random()*5));
+		var random = Math.floor((Math.random()*6));
 		switch (aanvallerAfbeeldingen[i]) {
 			case aanvallerKleuren[0]:
 				aanvallerStenen[i] = blauweStenen[random];
@@ -153,7 +153,7 @@ function rolAanvallerStenen () {
 
 function rolVerdedigerStenen () {
 	for (var i = 0; i < 3; i++) {
-		var random = Math.floor((Math.random()*5));
+		var random = Math.floor((Math.random()*6));
 		switch (verdedigerAfbeeldingen[i]) {
 			case verdedigerKleuren[0]:
 				verdedigerStenen[i] = grijzeStenen[random];
